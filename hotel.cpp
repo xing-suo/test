@@ -203,7 +203,7 @@ class Hotel_Manage {     //酒店管理类
         Room_Manage room_manage;
     public:
         Hotel_Manage() {
-            User admin("admin", "admin123", "admin");           //预设管理员账号
+            User admin("admin1", "admin2", "admin3");           //预设管理员账号
             if ( user_manage.find_user(admin.username) == nullptr ) {
                 user_manage.add_user(admin);
             }
