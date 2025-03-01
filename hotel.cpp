@@ -393,7 +393,7 @@ class Hotel_Manage {     //酒店管理类
                 cout << "6.更新房间" << endl;
                 cout << "7.预订房间" << endl;
                 cout << "8.退出房间" << endl;
-                cout << "9.推出" << endl;
+                cout << "9.退出" << endl;
                 cout << "请选择操作：";
                 cin >> choice;
                 switch ( choice ) {
